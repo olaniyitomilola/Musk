@@ -1,0 +1,338 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  16px;
+    margin: 0 auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background:url(background.jpg) rgba(0, 0, 0, 0.8);
+    background-blend-mode: multiply;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #37A1CF;
+    background-color: whitesmoke;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+.header_links{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+   
+}
+.sign_up_form , .sign_in_form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.names{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+ 
+}
+.form-control{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.form-control:hover{
+    background-color: white;
+    color: #37A1CF;
+}
+.btn_register{
+    color: white;
+    background-color: #37A1CF;
+    border: none;
+    border-radius:10px;
+    font-weight: bold;
+}
+#existing{
+    font-size:10px;
+    font-weight:bold;
+    color: #37A1CF;
+}
+#forgotpassword{
+    font-size:10px;
+    font-weight:lighter;
+    color: #37A1CF;
+}
+.fName{
+    margin-bottom: 10px;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius:5px;
+    border: none;
+    width: 170px;
+}
+.inspection_info{
+    margin-top: 100px !important;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: rgba(255,255,255,0.95);
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+    border-top: 4px solid #37A1CF;
+    border-radius: 10px;
+
+}
+
+#inspec_top, #inspec_bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+}
+.input_edit{
+    width: 30%;
+    padding-left: 5px;
+    border: none;
+    color: #37A1CF;
+    outline: none;
+    border-radius: 4px;
+}
+
+.whole_form{
+    margin-top: 20px !important;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+.form_header{
+    color: white;
+    background-color:#37A1CF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px;
+}
+.form_body{
+    background-color: rgba(255,255,255,0.95);
+    font-size: 10px;
+    color: #37A1CF;
+    font-weight: bold;
+    padding: 5px;
+
+
+}
+.rows_table{
+    display: flex;
+    flex-direction: row;
+    padding-top:5px;
+    align-items: center;
+}
+.params{
+    width: 30%;
+}
+.interbox{
+    width: 10%;
+    outline-color: #37A1CF;
+}
+#quality, #site_rules, #environmental, #protection, #tools_cables, #miscellaneous {
+    margin-top:20px;
+}
+#preview{
+    margin-top: 10px;
+    align-items: flex-end;
+}
+.preview_btn{
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 4px;
+    border: none;
+}
+.sign_header{
+    font: size 30px;
+    font-weight: bold;
+    color: #37A1CF;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.addimage{
+    outline: none;
+    border: none;
+    background-color: #37A1CF;
+}
+.previewpage{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.preview_body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+}
+.previewheader{
+    display: flex;
+    align-items: center;
+    height:2em;
+    background-color: #37A1CF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 5px;
+}
+.headercontent{
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.previewbody{
+    background-color: whitesmoke;
+    padding: 20px;
+    color: #37A1CF;
+}
+.previewelement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 12px;
+    width: 100%;
+    
+}
+.elementtitle{
+    width: 50%;
+    background-color: white;
+    padding: 5px;
+}
+.elementfig{
+    width: 20%;
+    background-color: white;
+    padding: 5px;
+}
+.previewinput{
+    outline: none;
+    border: none;
+    width: 100%;
+}
+.finalsubmit{
+    
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 10px;
+    width: 20%;
+    background-color: #37A1CF;
+    color: #fff;
+}
+.bottom-button{
+    display: flex;
+    justify-content: flex-end;
+}
+#dash {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 70%;
+    height: 28em;
+    margin-top: 100px;
+    border-radius:10px;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.dash_ent {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 12em;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+
+
+}
+.dash_ent_head{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background-color: #00729E;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #73D2FF;
+    align-items: center;
+    justify-content: center;
+
+}
+.dash_ent_count {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #73D2FF;
+    height: 100%;
+}
+
+.dash_ent:hover {
+    box-shadow: 5px 5px 15px 5px #73D2FF;
+}
+
+
+.dash_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#new_inspect{
+    display: flex;
+    margin: 1.2em;
+    flex-direction: row;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: #37A1CF;
+    color: #fff;
+    border: none;
+    justify-content: flex-end;
+
+}
+#error{
+    color: red !important; 
+    font-size: 0.8em !important;
+}
+.sign_navigator{
+    text-decoration: none;
+    color: #37A1CF;
+}
+
+@media screen and (max-width: 720px) {
+    #dash {
+        width: 90%;
+    }
+  }
